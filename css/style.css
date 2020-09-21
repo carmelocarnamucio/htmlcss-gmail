@@ -1,0 +1,85 @@
+body {
+ background-image: url(../img/sfondo.jpg);
+ color: white;
+}
+
+#container {
+ width: 90%;
+ margin: 0 auto;
+}
+
+.logo {
+ width: 100px
+}
+
+/* scritta "gmail" di fianco al logo */
+
+.logo-text{
+ font-weight: bold;
+ font-family: Arial;
+ font-size: 20px;
+ margin-left: 10px;
+ position: absolute;
+ top: 4%;
+}
+
+.button{
+ border-radius: 4px;
+}
+
+/* blocco div "oggetto delle email" */
+
+.row-left{
+ display: inline-block;
+ width: 15%;
+}
+
+/* blocco div "testo delle email" */
+
+.row-right{
+ display: inline-block;
+ width: 83%;
+}
+
+.number-unread {
+ background-color: orange;
+ border-radius: 50%;
+ padding: 15px;
+}
+
+.email-read{
+ background-color: lightgrey;
+ border: 1px solid black;
+}
+
+.email-unred{
+ background-color: white;
+ border: 1px solid black;
+}
+
+/* testo: "oggetto delle email" */
+
+.subject{
+ color: black;
+}
+
+.text-mail{
+ color: darkgrey;
+}
+
+.star{
+ color: black;
+}
+
+.name-footer{
+ font-size: 26px;
+ font-weight: bold;
+}
+
+hr{
+ color: white;
+}
+
+footer {
+ text-align: center;
+}
